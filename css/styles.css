@@ -10,13 +10,7 @@ html {
 
 body {
     background: url("../images/minecraftbg.jpg") no-repeat center center fixed;
-    min-height: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-    height: 100%;
-    overflow: hidden;
 }
 
 .jumbotron {
