@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "minecrafter";
+    src: url("../text/fonts/Minecrafter.Reg.ttf");
+}
+
+body {
+    background: url("../images/minecraftbg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.jumbotron {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: inherit;
+    background-color: rgba(238, 238, 238, 0.7);
+    
+}
+
+.jumbotron h1 {
+    font-family: minecrafter, serif;
+    color: #00AA00;
+    margin-bottom: 50px;
+}
+
+.jumbotron p {
+    font-size: 2em;
+}
+
+.jumbotron p a {
+    color: #000;
+}
+
+.jumbotron a:hover {
+    text-decoration: none;
+    color: #AA0000;
+    font-family: minecrafter, serif;
+    font-size: 0.7em;
+    letter-spacing: 3px;
+}
+
+.carousel {
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 3px solid #000;
+    border-radius: 10px;
+    
+}
