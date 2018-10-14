@@ -6,6 +6,7 @@
 body {
     background: url("../images/minecraftbg.jpg") no-repeat center center fixed;
     background-size: cover;
+    min-height: 100%;
 }
 
 .jumbotron {
