@@ -3,6 +3,11 @@
     src: url("../text/fonts/Minecrafter.Reg.ttf");
 }
 
+html {
+    height: 100vh;
+    min-height: 100%;
+}
+
 body {
     background: url("../images/minecraftbg.jpg") no-repeat center center fixed;
     min-height: 100%;
